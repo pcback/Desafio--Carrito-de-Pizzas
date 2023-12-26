@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* slider nabvar */
+.slider_navbar {
+  z-index: -2;
+  position: absolute;
+}
+.text_pizza_banner {
+  font-weight: bold;
+  padding-left: 2rem;
+}
+/* caja navbar */
+.box_navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-image: radial-gradient(
+    circle at 100% 0%,
+    #3e7aff 0,
+    #6874fd 10%,
+    #846df5 20%,
+    #9b65ed 30%,
+    #ae5de3 40%,
+    #be55d8 50%,
+    #cc4ccc 60%,
+    #d744c0 70%,
+    #e13bb3 80%,
+    #e933a5 90%,
+    #ef2c97 100%
+  );
+  height: 2rem;
+  width: auto;
+}
+/* img navbar  */
+.img_navbar {
+  padding-top: 1rem;
+  width: 12rem;
+  height: 6rem;
+  align-items: center;
+}
+.img_navbar:hover {
+  width: 14rem;
+  height: 8rem;
+}
+/* bton caja navbar */
+.btn_inicio_navbar {
+  width: 5rem;
+  height: 5rem;
+  margin-left: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: -8px 9px 12px -2px rgb(198, 149, 188);
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #de9c2c 0,
+    #e5922a 8.33%,
+    #ea852b 16.67%,
+    #ee772d 25%,
+    #f16731 33.33%,
+    #f35436 41.67%,
+    #f23c3c 50%,
+    #f01843 58.33%,
+    #ed004c 66.67%,
+    #e90057 75%,
+    #e30064 83.33%,
+    #db0071 91.67%,
+    #d10080 100%
+  );
+  border-radius: 50% 20% / 10% 40%;
+}
+.btn_inicio_navbar:hover {
+  box-shadow: -8px 9px 12px -2px rgb(86, 25, 74);
+}
+/* boton de inicio menus */
+.inicio_btn {
+  font-weight: 1000;
+  text-decoration: none;
+  font-size: smaller;
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #ffe6cd 0,
+    #ffe7ca 6.25%,
+    #ffe9c9 12.5%,
+    #ffebc8 18.75%,
+    #fbecc8 25%,
+    #f6eec8 31.25%,
+    #f1efc9 37.5%,
+    #ebf1cb 43.75%,
+    #e6f2cd 50%,
+    #e1f3d0 56.25%,
+    #dbf4d3 62.5%,
+    #d6f5d7 68.75%,
+    #d1f6db 75%,
+    #ccf7df 81.25%,
+    #c8f8e4 87.5%,
+    #c4f8e9 93.75%,
+    #c1f8ee 100%
+  );
+  border-radius: 50% 20% / 10% 40%;
+}
+/* icono carrito */
+.icon_carrito {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* caja container carrito y total */
+.box_carrito_y_total {
+  display: flex;
+  flex-direction: row;
+  box-shadow: -8px 9px 12px -2px rgba(47, 87, 196, 1);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  width: 10rem;
+  height: 5rem;
+  margin-left: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #de9c2c 0,
+    #e5922a 8.33%,
+    #ea852b 16.67%,
+    #ee772d 25%,
+    #f16731 33.33%,
+    #f35436 41.67%,
+    #f23c3c 50%,
+    #f01843 58.33%,
+    #ed004c 66.67%,
+    #e90057 75%,
+    #e30064 83.33%,
+    #db0071 91.67%,
+    #d10080 100%
+  );
+  border-radius: 50% 20% / 10% 40%;
+}
+.box_carrito_y_total:hover {
+  box-shadow: -8px 9px 12px -2px rgb(138, 28, 58);
+}
+/* caja contenedora del valor total */
+.box_valor_total {
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
+/* texto del campo total */
+.text_valor_total {
+  color: #c1f8ee;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* imagen del banner */
+.img_banner {
+  width: 100%;
+  height: 13rem;
+  background-size: cover;
+}
+/* box de las cards */
+.box_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+  height: auto;
+}
+/* btones de la card */
+.btn_card {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+/* comoponente detalles */
+.box_detalles {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 1rem;
+  margin-top: 5rem;
+}
+/* box carrito */
+.boxCarrito {
+  display: "flex";
+  flex-direction: column;
+  margin-top: 7rem;
+}
+/* detalles del carrito */
+.box_carrito_detalles {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+
+  width: 70%;
+  height: 10rem;
+  background-color: #be55d8;
+}
+/* img detalles del carrito */
+.img_detalle_carrito {
+  width: 150%;
+  height: 80%;
+  margin: 1rem;
+  background-size: cover;
+}
+
+.btn_carrito_detalle {
+  margin-left: 12rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo_detalles_carrito {
+  width: 30%;
+  padding-top: 1rem;
+  margin-left: 17rem;
+  font-size: 2rem;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
